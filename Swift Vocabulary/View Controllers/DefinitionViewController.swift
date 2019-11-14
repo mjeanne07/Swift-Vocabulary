@@ -9,14 +9,25 @@
 import UIKit
 
 class DefinitionViewController: UIViewController {
-
+    
+    var cellWord: VocabularyWord?
+    
+    @IBOutlet var word: UILabel!
+    @IBOutlet var definition: UIText!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+          updateViews()
+    }
+        
+        func updateViews() {
+            if let cellWord = cellWord {
+                title = cellWord.word
+            
+            }
+        }
     }
     
-
     /*
     // MARK: - Navigation
 
@@ -27,4 +38,4 @@ class DefinitionViewController: UIViewController {
     }
     */
 
-}
+

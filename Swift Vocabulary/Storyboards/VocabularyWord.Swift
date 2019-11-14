@@ -1,5 +1,5 @@
 //
-//  VocabularlyWord.Swift
+//  VocabularyWord.Swift
 //  Swift Vocabulary
 //
 //  Created by Morgan Smith on 11/13/19.
