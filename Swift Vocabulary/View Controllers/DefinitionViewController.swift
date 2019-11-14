@@ -22,7 +22,8 @@ class DefinitionViewController: UIViewController {
         
         func updateViews() {
             if let cellWord = cellWord {
-                title = cellWord.word
+                word = cellWord.word
+                definition = cellWord.definition
             
             }
         }
