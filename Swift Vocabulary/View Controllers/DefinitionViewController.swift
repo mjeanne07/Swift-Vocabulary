@@ -12,8 +12,10 @@ class DefinitionViewController: UIViewController {
     
     var cellWord: VocabularyWord?
     
-    @IBOutlet var word: UILabel!
-    @IBOutlet var definition: UIText!
+    @IBOutlet var wordLabel: UILabel!
+    @IBOutlet var definitionText: UITextField!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,8 +24,8 @@ class DefinitionViewController: UIViewController {
         
         func updateViews() {
             if let cellWord = cellWord {
-                word = cellWord.word
-                definition = cellWord.definition
+                wordLabel.text = cellWord.word
+                definitionText.text = cellWord.definition
             
             }
         }

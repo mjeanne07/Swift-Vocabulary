@@ -10,7 +10,7 @@ import UIKit
 
 class WordsTableViewController: UITableViewController {
     
-    var vocabWords: [VocabularyWord] = [VocabularyWord(word: "Variable", definition: "Variables are the “things” in your code, like numbers, text, buttons and images.  Variables can be changed after being created"), VocabularyWord(name: "Constant", definition: "A variable that can't be changed once it is created"), VocabularyWord(name: "Function", definition: "Functions are self-contained chunks of code that perform a specific task.")]
+    var vocabWords: [VocabularyWord] = [VocabularyWord(word: "Variable", definition: "Variables are the “things” in your code, like numbers, text, buttons and images.  Variables can be changed after being created"), VocabularyWord(word: "Constant", definition: "A variable that can't be changed once it is created"), VocabularyWord(word: "Function", definition: "Functions are self-contained chunks of code that perform a specific task.")]
     
     
     override func viewDidLoad() {
@@ -48,4 +48,4 @@ class WordsTableViewController: UITableViewController {
     }
 }
 
-
+}

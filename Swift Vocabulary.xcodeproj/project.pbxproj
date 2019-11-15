@@ -14,7 +14,7 @@
 		024B63F3237CDA1C008D6217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024B63F1237CDA1C008D6217 /* LaunchScreen.storyboard */; };
 		024B63FB237CDB38008D6217 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024B63FA237CDB38008D6217 /* WordsTableViewController.swift */; };
 		024B63FD237CDB6B008D6217 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024B63FC237CDB6B008D6217 /* DefinitionViewController.swift */; };
-		024B6402237CE5C7008D6217 /* VocabularyWord.Swift in Sources */ = {isa = PBXBuildFile; fileRef = 024B6401237CE5C7008D6217 /* VocabularyWord.Swift */; };
+		024B6402237CE5C7008D6217 /* VocabularyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024B6401237CE5C7008D6217 /* VocabularyWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		024B63F4237CDA1C008D6217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		024B63FA237CDB38008D6217 /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
 		024B63FC237CDB6B008D6217 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
-		024B6401237CE5C7008D6217 /* VocabularyWord.Swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyWord.Swift; sourceTree = "<group>"; };
+		024B6401237CE5C7008D6217 /* VocabularyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 			children = (
 				024B63EC237CDA18008D6217 /* Main.storyboard */,
 				024B63F1237CDA1C008D6217 /* LaunchScreen.storyboard */,
-				024B6401237CE5C7008D6217 /* VocabularyWord.Swift */,
+				024B6401237CE5C7008D6217 /* VocabularyWord.swift */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				024B6402237CE5C7008D6217 /* VocabularyWord.Swift in Sources */,
+				024B6402237CE5C7008D6217 /* VocabularyWord.swift in Sources */,
 				024B63E7237CDA18008D6217 /* AppDelegate.swift in Sources */,
 				024B63FD237CDB6B008D6217 /* DefinitionViewController.swift in Sources */,
 				024B63E9237CDA18008D6217 /* SceneDelegate.swift in Sources */,
